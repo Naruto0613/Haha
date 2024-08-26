@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My first Website</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1 id="name">Naranbadrakh about me</h1>
+            <div class="colors">
+                <button style="background-color: red" id="car">Red</button>
+                <button style="background-color: blue" id="car1">Blue</button>
+                <button style="background-color: yellow" id="car2">
+                    Yellow
+                </button>
+                <button style="background-color: pink" id="car3">Pink</button>
+                <button style="background-color: aqua" id="car4">Aqua</button>
+                <button id="btnRefresh" type="button">Reset</button>
+            </div>
+        </header>
+        <main>
+            <section>
+                <h2>Favorites</h2>
+                <div>
+                    <h3>Online Favorites</h3>
+                    <p>
+                        <button style="background-color: rgb(255, 255, 255)">
+                            <a target="_blank" href="https://9animetv.to/"
+                                >Favorite site</a
+                            >
+                        </button>
+                    </p>
+                </div>
+                <div>
+                    <h3>Favorite things</h3>
+                    <ul>
+                        <li>Coding</li>
+                        <li>Play online games</li>
+                        <li>Solve problems</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h2>About my family</h2>
+                <div>
+                    <ol>
+                        <li>My father: Khishigdemberel</li>
+                        <li>My mom: Yanjmaa</li>
+                        <li>My sister: Udval</li>
+                        <li>My brother: Naranmandakh</li>
+                    </ol>
+                </div>
+                <div>
+                    <h3>Header 3</h3>
+                    <button
+                        id="Naba"
+                        onclick="doSomething()"
+                        style="background-color: rgb(255, 245, 102)"
+                    >
+                        <h2>Click me</h2>
+                    </button>
+                    <p id="Hha" style="font-size: x-large">I love youu</p>
+                    <script>
+                        function doSomething() {
+                            document.getElementById("Hha").innerHTML =
+                                "Have a nice day :)";
+                        }
+                    </script>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h4>
+                I love you guys and pls support me.Here is my gmail
+                Naranbadrakh@gmail.com
+            </h4>
+            <div id="Counter">Counter:0</div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
